@@ -1,0 +1,52 @@
+[
+    {
+        "text": " When was the Confederation of African Football (CAF) established?",
+        "options": ["1955", "1979", "1961", "1957"],
+        "correct_option": 4
+    },
+    {
+        "text": "In what year was the first African Cup of Nations tournament played?",
+        "options": ["1969", "1957", "1974", "1958"],
+        "correct_option": 2
+    },
+    {
+        "text": "Which African nation has won the most number of African Cup of Nations tournaments?",
+        "options": ["Ghana", "Egypt", "Cameroon", "Nigeria"],
+        "correct_option": 2
+    },
+    {
+        "text": "Which one of the following is not a nickname for an African national team?",
+        "options": ["Lions of Teranga", "Super Eagles", "Black Leopards", "The Elephants"],
+        "correct_option": 3
+    },
+    {
+        "text": "Which African nation hosted the FIFA World Cup held in 2010?",
+        "options": ["Morocco", "Ghana", "Algeria", "South Africa"],
+        "correct_option": 4
+    },
+    {
+        "text": "Who has the most international football caps in Africa?",
+        "options": ["Rigobert Song, Cameroon", "Hossam Hassan, Egypt", "Didier Zokora, Ivory Coast", "Ahmed Hassan, Egypt"],
+        "correct_option": 2
+    },
+    {
+        "text": "When was the first Women's African Cup of Nations?",
+        "options": ["1991", "1998", "1995", "2000"],
+        "correct_option": 1
+    },
+    {
+        "text": "Which African nation was the first to reach the quarter-finals of the World Cup?",
+        "options": ["Tunisia", "Cameroon", "Algeria", "Morocco"],
+        "correct_option": 2
+    },
+    {
+        "text": "Which african club has won the most CAF Champions League?",
+        "options": ["Canon Yaounde, Cameroon", "Esperance, Tunisia", "Al Ahly, Egypt", "El Raja Casablanca, Morocco"],
+        "correct_option": 3
+    },
+    {
+        "text": "Which nation has never won the African Cup of Nations?",
+        "options": ["Ivory Coast", "Senegal", "Libya", "South Africa"],
+        "correct_option": 3
+    }
+]
