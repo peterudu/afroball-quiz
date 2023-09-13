@@ -14,3 +14,14 @@ class Question:
         self.answer_options = answer_options
         self.correct_answer = correct_answer
     
+
+class Questionsbank:
+    """
+    Use Questionsbank class to produce a list of new objects which will contain questions text
+    and answer options data collected from the json file
+    """
+
+    def __init__(self):
+        self.questions = []
+
+
