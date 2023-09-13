@@ -1,4 +1,6 @@
 import json
+import os
+import sys
 
 
 
@@ -27,11 +29,15 @@ class Questionsbank:
     def load_questions_data(self, data_file):
         with open(data_file, "r") as file:
             details = json.load(file)
-            # print(file.read())
             for detail in details:
                 question = Question(
                     detail["question_text"], detail["answer_options"], detail["correct_answer"]
                 )
                 self.questions.append(question)
-        # print(questions)
 
+    def print_question(self, index, question):
+        print("Question {}: {}".format(index, question.text))
+        for option_index, option in enumerate(question.answer_options, start=1):
+            print("  {}. {}".format(option_index, option))
+        print()
+            
