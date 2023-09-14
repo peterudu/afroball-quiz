@@ -54,4 +54,8 @@ class Questionsbank:
                 print("Your input is invalid. Enter a number value")        
 
 
+
+    def main():
+        print("Welcome to afroBall Quiz!")
     
+    main()
