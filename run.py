@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+import random
 
 
 
@@ -27,6 +28,7 @@ class Questionsbank:
     def __init__(self):
         self.questions = []
 
+
     def load_questions_data(self, pathname):
         with open(pathname, "r") as file:
             details = json.load(file)
@@ -36,11 +38,13 @@ class Questionsbank:
                 )
                 self.questions.append(question)
 
+
     def print_question(self, index, question):
         print("Question {}: {}\n".format(index, question.text))
         for option_index, option in enumerate(question.options, start=1):
             print("   {}. {}\n".format(option_index, option))
         print()
+
 
     def get_user_choice(self, options_index):
         while True:
@@ -54,9 +58,14 @@ class Questionsbank:
                 print("Your input is invalid. Enter a number value")        
 
 
+    def start_quiz():
+        num_of_selected_questions = min(7, len(self.questions))
 
-    def main():
-        print("Welcome to afroBall Quiz!")
+        mix_questions = random.sample(self.questions, num_of_selected_questions)
+
+
+def main():
+    
 
     
-    main()
+main()
