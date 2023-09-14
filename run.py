@@ -11,10 +11,10 @@ class Question:
     correct_answer attributes
     """
 
-    def __init__(self, question_text, answer_options, correct_answer):
-        self.question_text = question_text
-        self.answer_options = answer_options
-        self.correct_answer = correct_answer
+    def __init__(self, text, options, solution):
+        self.text = text
+        self.options = options
+        self.solution = solution
     
 
 class Questionsbank:
@@ -27,26 +27,26 @@ class Questionsbank:
     def __init__(self):
         self.questions = []
 
-    def load_questions_data(self, data_file):
-        with open(data_file, "r") as file:
+    def load_questions_data(self, pathname):
+        with open(pathname, "r") as file:
             details = json.load(file)
-            for detail in details:
+            for q_detail in details:
                 question = Question(
-                    detail["question_text"], detail["answer_options"], detail["correct_answer"]
+                    q_detail["text"], q_detail["options"], q_detail["solution"]
                 )
                 self.questions.append(question)
 
     def print_question(self, index, question):
-        print("Question {}: {}".format(index, question.text))
-        for option_index, option in enumerate(question.answer_options, start=1):
-            print("   {}. {}".format(option_index, option))
+        print("Question {}: {}\n".format(index, question.text))
+        for option_index, option in enumerate(question.options, start=1):
+            print("   {}. {}\n".format(option_index, option))
         print()
 
-    def user_input(self, options_num):
+    def get_user_choice(self, options_index):
         while True:
             try:
                 answer = int(input("Give your answer."))
-                if 1 <= answer <= options_num:
+                if 1 <= answer <= options_index:
                     return answer
                 else:
                     print("Your input is invalid. Enter a valid answer.")
