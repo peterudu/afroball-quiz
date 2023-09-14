@@ -16,13 +16,17 @@ class Question:
         self.text = text
         self.options = options
         self.solution = solution
+
+
+        def accurate(self, answer):
+            return self.solution == answer
     
 
 class Questionsbank:
 
     """
-    Use Questionsbank class to produce a list of new objects which will contain questions text
-    and answer options details collected from the json file
+    Use Questionsbank class to produce a list of new objects which will contain questions text,
+    options and solution details collected from the json file
     """
 
     def __init__(self):
@@ -65,7 +69,12 @@ class Questionsbank:
 
 
 def main():
-    
+    while True:
+        q = Questionsbank
+        q.load_questions_data("caf_questions.json")
 
-    
-main()
+        print("Welcome to afroBall Quiz.")
+        q.start_quiz()
+
+if __name__ == "__main__":      
+    main()
