@@ -4,12 +4,10 @@ import sys
 import random
 
 
-
 class Question:
     """
     Create a quiz model by using the Question class to initialize new question objects,
-    the new question objects will possess the question_text, answer_options and 
-    correct_answer attributes
+    the new question objects will possess the text, options and solution attributes
     """
 
     def __init__(self, text, options, solution):
@@ -17,13 +15,11 @@ class Question:
         self.options = options
         self.solution = solution
 
-
         def accurate(self, answer):
             return self.solution == answer
     
 
 class Questionsbank:
-
     """
     Use Questionsbank class to produce a list of new objects which will contain questions text,
     options and solution details collected from the json file
@@ -31,7 +27,6 @@ class Questionsbank:
 
     def __init__(self):
         self.questions = []
-
 
     def load_questions_data(self, pathname):
         with open(pathname, "r") as file:
@@ -42,13 +37,11 @@ class Questionsbank:
                 )
                 self.questions.append(question)
 
-
     def print_question(self, index, question):
         print("Question {}: {}\n".format(index, question.text))
         for option_index, option in enumerate(question.options, start=1):
             print("   {}. {}\n".format(option_index, option))
         print()
-
 
     def get_user_choice(self, options_index):
         while True:
@@ -60,7 +53,6 @@ class Questionsbank:
                     print("Your input is invalid. Enter a valid answer.")
             except ValueError:
                 print("Your input is invalid. Enter a number value")        
-
 
     def start_quiz():
         num_of_selected_questions = min(7, len(self.questions))
@@ -75,6 +67,7 @@ def main():
 
         print("Welcome to afroBall Quiz.")
         q.start_quiz()
+
 
 if __name__ == "__main__":      
     main()
