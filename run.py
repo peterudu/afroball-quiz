@@ -53,7 +53,7 @@ class Questionsbank:
                 else:
                     print("Your input is invalid. Enter a valid answer.")
             except ValueError:
-                print("Your input is invalid. Enter a number value")        
+                print("Your input is invalid. Please enter a number value")        
 
     def start_quiz(self):
         self.score = 0
@@ -71,7 +71,8 @@ class Questionsbank:
                 print("Wrong!\n")
         self.show_results(num_of_selected_questions)
 
-    # def show_results()
+    def show_results(self, num_of_selected_questions):
+        print("End of afroBall quiz")
 
 
 def main():
