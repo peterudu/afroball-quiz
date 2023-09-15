@@ -27,6 +27,7 @@ class Questionsbank:
 
     def __init__(self):
         self.questions = []
+        self.score = 0
 
     def load_questions_data(self, pathname):
         with open(pathname, "r") as file:
@@ -46,7 +47,7 @@ class Questionsbank:
     def get_user_choice(self, options_index):
         while True:
             try:
-                answer = int(input("Give your answer."))
+                answer = int(input("Give your answer: "))
                 if 1 <= answer <= options_index:
                     return answer
                 else:
@@ -54,19 +55,33 @@ class Questionsbank:
             except ValueError:
                 print("Your input is invalid. Enter a number value")        
 
-    def start_quiz():
+    def start_quiz(self):
+        self.score = 0
         num_of_selected_questions = min(7, len(self.questions))
 
         mix_questions = random.sample(self.questions, num_of_selected_questions)
 
+        for index, question in enumerate(mix_questions, start=1):
+            self.print_question(index, question)
+            answer = self.get_user_choice(len(question.options))
+            if question.accurate(answer):
+                self.score += 1
+                print("Correct!\n")
+            else:
+                print("Wrong!\n")
+        self.show_results(num_of_selected_questions)
+
+    # def show_results()
+
 
 def main():
     while True:
-        q = Questionsbank
+        q = Questionsbank()
         q.load_questions_data("caf_questions.json")
 
         print("Welcome to afroBall Quiz.")
         q.start_quiz()
+
 
 
 if __name__ == "__main__":      
