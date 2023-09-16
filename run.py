@@ -99,6 +99,14 @@ def main():
         print("Welcome to afroBall Quiz.")
         q.start_quiz()
 
+        replay_quiz = input("Do you want to do the quiz again? (yes/no): ")
+        if (replay_quiz).lower() != "yes":
+            print("Thank you for doing the quiz!")
+            break
+        else:
+            print("Enjoy the quiz!\n")
+            clean_screen()
+
 
 
 if __name__ == "__main__":      
