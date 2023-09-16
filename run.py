@@ -6,8 +6,9 @@ import random
 
 class Question:
     """
-    Create a quiz model by using the Question class to initialize new question objects,
-    the new question objects will possess the text, options and solution attributes
+    Create a quiz model by using the Question class to initialize new question
+    objects, the new question objects will possess the text, options and 
+    solution attributes
     """
 
     def __init__(self, text, options, solution):
@@ -21,8 +22,8 @@ class Question:
 
 class Questionsbank:
     """
-    Use Questionsbank class to produce a list of new objects which will contain questions text,
-    options and solution details collected from the json file
+    Use Questionsbank class to produce a list of new objects which will contain
+    questions text, options and solution details collected from the json file
     """
 
     def __init__(self):
@@ -63,7 +64,8 @@ class Questionsbank:
         self.score = 0
         num_of_selected_questions = min(7, len(self.questions))
 
-        mix_questions = random.sample(self.questions, num_of_selected_questions)
+        mix_questions = random.sample(
+            self.questions, num_of_selected_questions)
 
         for index, question in enumerate(mix_questions, start=1):
             self.print_question(index, question)
