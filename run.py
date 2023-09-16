@@ -7,7 +7,7 @@ import random
 class Question:
     """
     Create a quiz model by using the Question class to initialize new question
-    objects, the new question objects will possess the text, options and 
+    objects, the new question objects will possess the text, options and
     solution attributes
     """
 
@@ -18,18 +18,20 @@ class Question:
 
     def accurate(self, answer):
         return self.solution == answer
-    
+
 
 class Questionsbank:
     """
-    Use Questionsbank class to produce a list of new objects which will contain
-    questions text, options and solution details collected from the json file
+    Use Questionsbank class with __init__() method to initialize a list of new
+    objects which will contain questions text, options and solution details 
+    collected from the json file
     """
 
     def __init__(self):
         self.questions = []
         self.score = 0
 
+    # append empty questions list with question details from imported json file
     def load_questions_data(self, pathname):
         with open(pathname, "r") as file:
             details = json.load(file)
@@ -39,16 +41,18 @@ class Questionsbank:
                 )
                 self.questions.append(question)
 
+    # resets the creation of new questions and starts the process all over again
     def reset(self):
         self.score = 0
 
-
+    # displays each quiz question text based on index. Options index starts from 1
     def print_question(self, index, question):
         print("Question {}: {}\n".format(index, question.text))
         for option_index, option in enumerate(question.options, start=1):
             print("   {}. {}\n".format(option_index, option))
         print()
 
+    # interracts with the user and ask for their answer input
     def get_user_choice(self, options_index):
         while True:
             try:
@@ -58,8 +62,9 @@ class Questionsbank:
                 else:
                     print("Your input is invalid. Enter a valid answer.")
             except ValueError:
-                print("Your input is invalid. Please enter a number value")        
-
+                print("Your input is invalid. Please enter a number value")
+    
+    # Function randomly selects a set of 7 questions for a quiz session             
     def start_quiz(self):
         self.score = 0
         num_of_selected_questions = min(7, len(self.questions))
@@ -77,21 +82,22 @@ class Questionsbank:
                 print("Wrong!\n")
         self.show_results(num_of_selected_questions)
 
+    # displays the players quiz scores at the end of every quiz session
     def show_results(self, num_of_selected_questions):
         print("End of afroBall quiz!")
 
         user_score_in_percent = (self.score / num_of_selected_questions) * 100
-        results_info_text = "You scored in: {} out of {} questions which makes ({:.2f}%)".format(
+        result = "You scored: {} from {} points which is ({:.2f}%)".format(
             self.score, num_of_selected_questions, user_score_in_percent)
-        print(results_info_text)
+        print(result)
 
 
 def clean_screen():
-    if(os.name == 'posix'):
+    if (os.name == 'posix'):
         os.system('clear')
     else:
         os.system('cls')
-        
+
 
 def main():
     while True:
@@ -110,6 +116,5 @@ def main():
             clean_screen()
 
 
-
-if __name__ == "__main__":      
+if __name__ == "__main__":
     main()
