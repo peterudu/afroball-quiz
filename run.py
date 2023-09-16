@@ -38,6 +38,10 @@ class Questionsbank:
                 )
                 self.questions.append(question)
 
+    def reset(self):
+        self.score = 0
+
+
     def print_question(self, index, question):
         print("Question {}: {}\n".format(index, question.text))
         for option_index, option in enumerate(question.options, start=1):
