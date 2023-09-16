@@ -15,8 +15,8 @@ class Question:
         self.options = options
         self.solution = solution
 
-        def accurate(self, answer):
-            return self.solution == answer
+    def accurate(self, answer):
+        return self.solution == answer
     
 
 class Questionsbank:
@@ -72,8 +72,20 @@ class Questionsbank:
         self.show_results(num_of_selected_questions)
 
     def show_results(self, num_of_selected_questions):
-        print("End of afroBall quiz")
+        print("End of afroBall quiz!")
 
+        user_score_in_percent = (self.score / num_of_selected_questions) * 100
+        results_info_text = "You scored in: {} out of {} questions which makes ({:.2f}%)".format(
+            self.score, num_of_selected_questions, user_score_in_percent)
+        print(results_info_text)
+
+
+def clean_screen():
+    if(os.name == 'posix'):
+        os.system('clear')
+    else:
+        os.system('cls')
+        
 
 def main():
     while True:
