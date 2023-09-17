@@ -56,7 +56,7 @@ class Questionsbank:
     def get_user_choice(self, options_index):
         while True:
             try:
-                answer = int(input("Give your answer: "))
+                answer = int(input("Give your answer:\n"))
                 if 1 <= answer <= options_index:
                     return answer
                 else:
@@ -107,7 +107,7 @@ def main():
         print("Welcome to afroBall Quiz.")
         q.start_quiz()
 
-        replay_quiz = input("Do you want to do the quiz again? (yes/no): ")
+        replay_quiz = input("Do you want to do the quiz again? (yes/no):\n")
         if (replay_quiz).lower() != "yes":
             print("Thank you for doing the quiz!")
             break
