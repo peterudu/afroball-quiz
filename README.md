@@ -11,12 +11,15 @@ AfroBall Quiz is designed to engage its users, test their knowledge of African f
 ## User Experience (UX)
 ### User Stories
 #### First Time Visitors Goals
+- I want to be able to use the application on different screen-sized devices.
+- I want an easy-to-understand quiz with helpful instructions and guidelines.
 #### Returning Visitors Goals
+- I want a quiz which is challenging and fun to take part in.
+- I want to be able to use the app to assess my knowledge of African football.
 #### Frequent Visitors Goals
- 
+- I want a quiz app with contemporary and up-to-date content.
+
 ## Design
-### Colour Scheme
-### Typography
 ### Imagery
 ### Wireframes
 ### Features
