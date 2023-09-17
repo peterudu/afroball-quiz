@@ -8,4 +8,41 @@ AfroBall Quiz is designed to engage its users, test their knowledge of African f
 
 [The live link to the hosted project]() 
 
+## User Experience (UX)
+### User Stories
+#### First Time Visitors Goals
+#### Returning Visitors Goals
+#### Frequent Visitors Goals
+ 
+## Design
+### Colour Scheme
+### Typography
+### Imagery
+### Wireframes
+### Features
+### Accessibility
+### Languages Used
+### Frameworks, Libraries & Programs Used
+
+## Deployment & Local Development
+### Deployment
+### Local Development
+
+## Testing
+### Automated Testing
+### Manual Testing
+#### Testing User Stories
+#### Full Testing
+#### General Testing
+### Fixed Bugs
+### Unfixed Bugs
+
+## Credits
+### Code Used
+### Content
+### Media
+#### Images
+#### Video Clip
+### Acknowledgements
+
  
