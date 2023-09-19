@@ -40,7 +40,7 @@
         "solution": 2
     },
     {
-        "text": "Which african club has won the most CAF Champions League?",
+        "text": "Which African club has won the most CAF Champions League?",
         "options": ["Canon Yaounde, Cameroon", "Esperance, Tunisia", "Al Ahly, Egypt", "El Raja Casablanca, Morocco"],
         "solution": 3
     },
@@ -97,6 +97,6 @@
     {
         "text": "From which country is Nwankwo Kanu?",
         "options": ["Burkina Faso", "Nigeria", "Angola", "Senegal"],
-        "solution": 3
+        "solution": 2
     }
 ]
