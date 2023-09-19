@@ -104,6 +104,13 @@ def main():
         q = Questionsbank()
         q.load_questions_data("caf_questions.json")
 
+        print(r"""
+        __         ___       _ _    ___       _    
+  __ _ / _|_ _ ___| _ ) __ _| | |  / _ \ _  _(_)___
+ / _` |  _| '_/ _ \ _ \/ _` | | | | (_) | || | |_ /
+ \__,_|_| |_| \___/___/\__,_|_|_|  \__\_\\_,_|_/__|                                  
+              """)
+
         print("Welcome to afroBall Quiz.")
         q.start_quiz()
 
