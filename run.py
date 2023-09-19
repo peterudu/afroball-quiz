@@ -89,7 +89,10 @@ class Questionsbank:
         user_score_in_percent = (self.score / num_of_selected_questions) * 100
         result = "You scored: {} from {} points which is ({:.2f}%)".format(
             self.score, num_of_selected_questions, user_score_in_percent)
+
+        print("==============================================")
         print(result)
+        print("==============================================")
 
 
 def clean_screen():
