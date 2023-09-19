@@ -111,7 +111,9 @@ def main():
  \__,_|_| |_| \___/___/\__,_|_|_|  \__\_\\_,_|_/__|                                  
               """)
 
-        print("Welcome to afroBall Quiz.")
+        name = input("Enter your name: ")
+        print("Hello %s Welcome to afroBall Quiz...."%(name))
+        print("-------------------------------------------------------------")
         q.start_quiz()
 
         replay_quiz = input("Do you want to do the quiz again? (yes/no):\n")
