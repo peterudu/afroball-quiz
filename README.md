@@ -94,5 +94,9 @@ Balsamiq was used to create wireframes for the quiz app.
 #### Images
 #### Video Clip
 ### Acknowledgements
+I acknowledge the following people who helped me complete this project:
+- [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/?originalSubdomain=ca) my Code Institute mentor
+- The Code Institute Student Care team, community@codeinstitute.net and Heroku team for helping register my credits and thus process my project deployment. 
+
 
  
