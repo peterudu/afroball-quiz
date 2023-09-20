@@ -64,7 +64,8 @@ class Questionsbank:
             except ValueError:
                 print("Your input is invalid. Please enter a number value")
     
-    # Function randomly selects a set of 7 questions for a quiz session             
+    # Function randomly selects a set of 7 questions for a quiz session and 
+    # increases score if users answer is correct solution.              
     def start_quiz(self):
         self.score = 0
         num_of_selected_questions = min(7, len(self.questions))
@@ -82,7 +83,8 @@ class Questionsbank:
                 print("Wrong!\n")
         self.show_results(num_of_selected_questions)
 
-    # displays the players quiz scores at the end of every quiz session
+    # Displays end of quiz statement and a result statement in points and percentages
+    # at end of every quiz session.
     def show_results(self, num_of_selected_questions):
         print("End of afroBall quiz!")
 
@@ -101,7 +103,7 @@ def clean_screen():
     else:
         os.system('cls')
 
-
+# Function to run the quiz
 def main():
     while True:
         q = Questionsbank()
