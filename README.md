@@ -55,8 +55,25 @@ The afroBall Quiz application offers some features which are core to the making 
 
 ### Accessibility
 ### Languages Used
+The language used to create this quiz app was Python
 ### Frameworks, Libraries & Programs Used
+Git was used for version control.
 
+Github was used to save and store the files for the website.
+
+Gitpod workspace was used to write and edit code for the quiz app.
+
+Balsamiq was used to create wireframes for the quiz app.
+
+[Diagrams.net (previously draw.io)](https://www.drawio.com/) was use to create the flow chart for the quiz app.
+
+[Am I Responsive](https://ui.dev/amiresponsive) was used to show how the app would look on different devices.
+
+[Heroku](https://www.heroku.com/) was used to deploy the live version of the terminal
+
+## Deployment & Local Development
+
+### Deployment
 ## Deployment & Local Development
 ### Deployment
 ### Local Development
