@@ -72,11 +72,29 @@ Balsamiq was used to create wireframes for the quiz app.
 [Heroku](https://www.heroku.com/) was used to deploy the live version of the terminal
 
 ## Deployment & Local Development
+### Deployment
+The quiz app was deployed using Code Institute mock terminal for Heroku. 
+For the deployment the following steps are required:
 
-### Deployment
-## Deployment & Local Development
-### Deployment
+1. Login to a newly created or already existing Heroku account.
+2. Go to the Heroku dashboard and select "New" and the option to create a new Heroku app.
+3. Give the new app a name and then choose your region.
+4. From the dashboard options choose "Settings" and then go to the segment "Config Vars"
+5. In Cofig Vars add the settings: KEY = PORT and VALUE = 8000.
+6. Set the buildpacks to Python and NodeJS in that order.
+7. On dashboard click the Deploy section.
+8. Next under go to segment Deployment Method and select GitHub, then click the connect button.
+9. Search for the GitHub repository name and click connect button to link Heroku app to GitHub
+10. Next scroll under to choose either to use Automatic deployment or Manual deployment.
+11. View build log until confirmation that the app has been successfully deployed.
+
 ### Local Development
+To clone this project proceed with the following steps:
+
+1. Login to GitHub and go to the repository of this project, https://github.com/peterudu/afroball-quiz.
+2. Chose and click the green Code button.
+3. Select a cloning method from one of options, either HTTPS, SSH or GitHub CLI and copy the offered link.
+4. Open up the terminal of your code editor, select a directory for your project, type in the Git command - ‘git clone’ and then paste in the copied link from the github repository.
 
 ## Testing
 ### Automated Testing
