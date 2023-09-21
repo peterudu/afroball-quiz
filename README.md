@@ -63,7 +63,7 @@ Gitpod workspace was used to write and edit code for the quiz app.
 
 Balsamiq was used to create wireframes for the quiz app.
 
-[Diagrams.net (previously draw.io)](https://www.drawio.com/) was use to create the flow chart for the quiz app.
+[Diagrams.net (previously draw.io)](https://www.drawio.com/) was used to create the flow chart for the quiz app.
 
 [Am I Responsive](https://ui.dev/amiresponsive) was used to show how the app would look on different devices.
 
@@ -140,9 +140,18 @@ I used a laptop and mobile device to conduct the following test:
 
 ## Credits
 ### Code Used
+
+- Code and structure on how to build an interactive python quiz was inspired by article by [Shay Lynn Khan](https://www.makeuseof.com/python-make-interactive-quiz-game/)
+- Additional ideas on how to structure a python based quiz was also derived from [Geir Arne Hjelle](https://realpython.com/python-quiz-application/)
+
 ### Content
-### Media
-#### Images
+
+- Data on African football players and information about significant African football events were used as content to build the caf_questions.json file catalogue. These were sourced from the article "The 50 greatest African players of all time" in the [Bleacher Report](https://bleacherreport.com/) and from the [Confederation of African - CAF](https://www.cafonline.com/) website.
+- Structure and layout used to build the quiz multiple-choice type questions was inspired by [Fun Trivia](https://www.funtrivia.com/) website
+
+- Method and steps taken to deploy the project to Heroku was based on the example from [Code Institute Love Sandwiches Walkthrough Project](https://codeinstitute.net/de/)
+- The structure and layout used to create the README file was modelled on example by [Kera Cudmore](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md)
+
 ### Acknowledgements
 I acknowledge the following people who helped me complete this project:
 - [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/?originalSubdomain=ca) my Code Institute mentor
