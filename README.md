@@ -117,7 +117,22 @@ Frequent Visitors
 | ---| ---|
 | I want a quiz app with contemporary and up-to-date content. | The author has built the app in such a way so that the quiz question catalogue can be adapted in future to include any new changes and developments in African football |
 #### Full Testing
+Full testing was performed on:
 
+- Laptop:
+  - Lenovo V15-IGL
+- Mobile Device:
+  - LG Velvet
+
+I used a laptop and mobile device to conduct the following test:
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| ---| ---| ---| ---| ---|
+| TERMINAL | | | | |  
+| Customized, personalized and interractive interface | How personally does the app approach each individual user | From the first blick of the quiz page the user is asked to enter his name | When the user enters his name the app responds by sending him a welcome message which mentions his previously entered name. | pass |
+| Randomly mixed quiz questions | Every new quiz session should consist of a new set of questions | I ran 6 consecutive quiz sessions after one another | The batch of questions asked in each new quiz session deferred from the previous session,. | pass |
+|  Handling user errors and input validation | If the quiz user enters a wrong data type or quantity the app should respond by informing him that the input is invalid and the quiz should not proceed until this error is corrected. | I answered some multiple choice questions by entering alphabets instead of numbers or entering numbers greater than 4 or less than 1 | The app responded by sending me an error message each time and this continued until I typed in the correct data type or correct quantity. | pass |
+| Display user quiz performance | After every attempted answer by the user the app should get a feedback message whether the attempt was correct or wrong and at the end of every quiz session the app should display the overall score performance to the user. | I played 3 quiz sessions each consisting of a sample of 7 questions | After attempting each question the app either display a "Wrong!" or "Correct!" message depending if the entered answer was accurate. At the end of each quiz session the app display an overall score performance based on a 7 points system and then also interpreted in percentage terms | pass |
+| Signup page link | If clicked the user should be redirected to the signup page | Clicked link | Redirects to signup page. | pass |
 #### General Testing
 - The quiz application was tested on Chrome, Firefox and Edge browsers. The quip worked well on all the browsers.
 ### Fixed Bugs
