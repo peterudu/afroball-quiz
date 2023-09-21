@@ -6,7 +6,7 @@ AfroBall Quiz is designed to engage its users, test their knowledge of African f
 
 ![Image of the website](/assets/images/)
 
-[The live link to the hosted project]() 
+[The live link to the hosted project](https://afroball-quiz-6f392208bd8b.herokuapp.com/) 
 
 ## User Experience (UX)
 ### User Stories
