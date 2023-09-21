@@ -100,6 +100,22 @@ To clone this project proceed with the following steps:
 ### Automated Testing
 ### Manual Testing
 #### Testing User Stories
+Firsttime Visitors
+| Goals | How are they achieved? |
+| ---| ---|
+| I want to be able to use the application on different screen-sized devices. | I developed the app with the goal of it being responsive and tests done certify that the quiz app can be accessed with a mobile phone, a tablet, a laptop or a desktop computer. |
+| I want an easy-to-understand quiz with helpful instructions and guidelines. | With the aid of displayed quiz statements and simple multiple-choice questions the app guides and informs the app user on what he is required to do. |
+
+Returning Visitors
+| Goals | How are they achieved? |
+| ---| ---|
+| I want a quiz which is challenging and fun to take part in. | The quiz qestions were carefully selected and cover a broad range of continental African football issues ranging from the African football federation, the players and women's football. In addition by each new quiz session the app randomly selects a new set of questions from the question catalogue so the quiz is never predictable for the user |
+| I want to be able to use the app to assess my knowledge of African football. | During the quiz session the user receives a feedback on every attempted question and at the end of the session displays a report of the overall quiz performance of the user based on the points scored and in percentage terms  |
+
+Frequent Visitors
+| Goals | How are they achieved? |
+| ---| ---|
+| I want a quiz app with contemporary and up-to-date content. | The author has built the app in such a way so that the quiz question catalogue can be adapted in future to include any new changes and developments in African football |
 #### Full Testing
 #### General Testing
 ### Fixed Bugs
