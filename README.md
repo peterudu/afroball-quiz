@@ -117,8 +117,9 @@ Frequent Visitors
 | ---| ---|
 | I want a quiz app with contemporary and up-to-date content. | The author has built the app in such a way so that the quiz question catalogue can be adapted in future to include any new changes and developments in African football |
 #### Full Testing
-- The quiz application was tested on Chrome, Firefox and Edge browsers. The quip worked well on all the browsers.
+
 #### General Testing
+- The quiz application was tested on Chrome, Firefox and Edge browsers. The quip worked well on all the browsers.
 ### Fixed Bugs
 ### Unfixed Bugs
 
