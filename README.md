@@ -4,7 +4,7 @@ AfroBall Quiz is a python-based terminal interactive quiz application with a the
 
 AfroBall Quiz is designed to engage its users, test their knowledge of African football, and most importantly ensure that they gain an enjoyable experience taking the quiz.
 
-![Image of the website](/assets/images/)
+![Image of the quiz app](/assets/images/)
 
 [The live link to the hosted project](https://afroball-quiz-6f392208bd8b.herokuapp.com/) 
 
@@ -20,7 +20,6 @@ AfroBall Quiz is designed to engage its users, test their knowledge of African f
 - I want a quiz app with contemporary and up-to-date content.
 
 ## Design
-### Imagery
 ### Wireframes
 ### Features
 The afroBall Quiz application offers some features which are core to the making the quiz function and they include:
@@ -53,7 +52,6 @@ The afroBall Quiz application offers some features which are core to the making 
   - The quiz presents the user ability to get and measure his quiz performance for each attempted question and also for the [overall score](/assets/) at the end of each quiz sesson.
   - The overall scores are displayed to the user in points and percentages 
 
-### Accessibility
 ### Languages Used
 The language used to create this quiz app was Python
 ### Frameworks, Libraries & Programs Used
@@ -98,6 +96,8 @@ To clone this project proceed with the following steps:
 
 ## Testing
 ### Automated Testing
+#### CI PEP8
+#### Python Syntax Checker
 ### Manual Testing
 #### Testing User Stories
 Firsttime Visitors
@@ -143,7 +143,6 @@ I used a laptop and mobile device to conduct the following test:
 ### Content
 ### Media
 #### Images
-#### Video Clip
 ### Acknowledgements
 I acknowledge the following people who helped me complete this project:
 - [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/?originalSubdomain=ca) my Code Institute mentor
