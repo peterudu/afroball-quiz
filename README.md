@@ -20,6 +20,8 @@ AfroBall Quiz is designed to engage its users, test their knowledge of African f
 - I want a quiz app with contemporary and up-to-date content.
 
 ## Design
+### flowchart
+ - [Flowchart](/assets/images/flowchart.webp) design of quiz app
 ### Wireframes
 A simple Balsamiq wireframe of the quiz starting page was used as building guideline for large and small devices.
 ![Balsamiq wireframe](/assets/images/wireframe.webp)
