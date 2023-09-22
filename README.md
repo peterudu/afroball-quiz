@@ -4,7 +4,7 @@ AfroBall Quiz is a python-based terminal interactive quiz application with a the
 
 AfroBall Quiz is designed to engage its users, test their knowledge of African football, and most importantly ensure that they gain an enjoyable experience taking the quiz.
 
-![Image of the quiz app](/assets/images/)
+![Image of the quiz app](/assets/images/amiresponsive.webp)
 
 [The live link to the hosted project](https://afroball-quiz-6f392208bd8b.herokuapp.com/) 
 
@@ -63,6 +63,8 @@ Gitpod workspace was used to write and edit code for the quiz app.
 
 Balsamiq was used to create wireframes for the quiz app.
 
+[Birme](https://www.birme.net/?no_resize=true&image_format=webp) was used to change images to webp format.
+
 [Diagrams.net (previously draw.io)](https://www.drawio.com/) was used to create the flow chart for the quiz app.
 
 [Am I Responsive](https://ui.dev/amiresponsive) was used to show how the app would look on different devices.
@@ -98,14 +100,15 @@ To clone this project proceed with the following steps:
 ### Automated Testing
 #### CI PEP8 Online Validation
 - Test with CI PEP8 Online validator showed no errors found.
-![CI PEP8 Online](/assets/images)
+![CI PEP8 Online](/assets/images/ci-pep8.webp)
 
 #### Python Syntax Checker Online
  - I ran the syntax through [python syntax checker](https://extendsclass.com/python-tester.html) with no errors detected.
+ ![Python Syntax Checker](/assets/images/python-syntax-checker.webp)
 
 #### JSONLint validator online
  - I ran the caf_questions.json file through [JSONLint validator](https://jsonlint.com/) with no errors detected - valid JSON.
-![JSON validator](/assets/images)
+![JSON validator](/assets/images/jsonlint-validator.webp)
 ### Manual Testing
 #### Testing User Stories
 Firsttime Visitors
