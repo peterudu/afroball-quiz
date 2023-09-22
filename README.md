@@ -21,6 +21,8 @@ AfroBall Quiz is designed to engage its users, test their knowledge of African f
 
 ## Design
 ### Wireframes
+A simple Balsamiq wireframe of the quiz starting page was used as building guideline for large and small devices.
+![Balsamiq wireframe](/assets/images/wireframe.webp)
 ### Features
 The afroBall Quiz application offers some features which are core to the making the quiz function and they include:
 
@@ -33,7 +35,7 @@ The afroBall Quiz application offers some features which are core to the making 
 
   - The large ASCII art designed [afroBall title](/assets/images/quiz-title.webp) and welcome message speaks directly to the quiz user creating a user friendly experience.
   - The displayed [quiz statements and questions](/assets/images/app-statements-and-questions.webp) informs the quiz player exactly what he is required to do.
-  - The quiz user constantly gets an [answer feedback](/assets/images/quiz-answer-feedback1.webp) on whether or not each answer attempt has been successful.
+  - The quiz user constantly gets an [answer feedback](/assets/images/quiz-answer-feedback.webp) on whether or not each answer attempt has been successful.
 
 - Randomly mixed quiz questions
 
