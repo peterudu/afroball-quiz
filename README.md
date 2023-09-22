@@ -96,8 +96,16 @@ To clone this project proceed with the following steps:
 
 ## Testing
 ### Automated Testing
-#### CI PEP8
-#### Python Syntax Checker
+#### CI PEP8 Online Validation
+- Test with CI PEP8 Online validator showed no errors found.
+![CI PEP8 Online](/assets/images)
+
+#### Python Syntax Checker Online
+ - I ran the syntax through [python syntax checker](https://extendsclass.com/python-tester.html) with no errors detected.
+
+#### JSONLint validator online
+ - I ran the caf_questions.json file through [JSONLint validator](https://jsonlint.com/) with no errors detected - valid JSON.
+![JSON validator](/assets/images)
 ### Manual Testing
 #### Testing User Stories
 Firsttime Visitors
@@ -156,6 +164,3 @@ I used a laptop and mobile device to conduct the following test:
 I acknowledge the following people who helped me complete this project:
 - [Jubril Akolade](https://www.linkedin.com/in/jubrillionaire/?originalSubdomain=ca) my Code Institute mentor
 - The Code Institute Student Care team, community@codeinstitute.net and Heroku team for helping register my credits and thus process my project deployment. 
-
-
- 
